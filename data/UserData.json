@@ -1,0 +1,57 @@
+[
+   {
+          "id": "SH100",
+          "fName": "Shashi",
+          "lName": "Dhoke",
+          "email": "shashi123@gmail.com",
+          "pinCode": "415509",
+          "birthDate": "4-NOV-1986",
+          "isActive": false,
+          "toDos": {
+              "id": "toDo100",
+              "userId": "SH100",
+              "text": "First ToDo",
+              "done": true,
+              "targetDate": "04-Nov-2017"
+          }
+      }  
+
+    ,
+    {
+          "id": "SH101",
+          "fName": "Neha",
+          "lName": "Gurav",
+          "email": "neha123@gmail.com",
+          "pinCode": "415510",
+          "birthDate": "12-DEC-1986",
+          "isActive": true,
+          "toDos": {
+              "id": "toDo101",
+              "userId": "SH101",
+              "text": "Second ToDo",
+              "done": true,
+              "targetDate": "05-Nov-2017"
+          }
+      }  
+
+    ,
+    {
+          "id": "SH102",
+          "fName": "Harsh",
+          "lName": "Gupta",
+          "email": "harsh123@gmail.com",
+          "pinCode": "475509",
+          "birthDate": "27-OCT-1986",
+          "isActive": true,
+          "toDos": {
+              "id": "toDo100",
+              "userId": "SH100",
+              "text": "First ToDo",
+              "done": true,
+              "targetDate": "04-Nov-2017"
+          }
+      }  
+
+    
+
+]
