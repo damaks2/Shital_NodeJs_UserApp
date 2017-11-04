@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="UserController.JS"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl"> 
+
+
+<h1> Welcome</h1>
+<h3>Get users for specific Id</h3>
+<button ng-click="myFunc1()">Go</button>
+<br>
+{{data1}}
+
+<h3>Get toDos for specific Id</h3>
+<button ng-click="myFunc2()">Go</button>
+<br>
+{{data2}}
+
+<h3>Get all Active users</h3>
+<button ng-click="myFunc3()">Go</button>
+<br>
+{{data3}}
+
+<h3>Get todays and tommorows Active users</h3>
+<button ng-click="myFunc4()">Go</button>
+<br>
+{{data4}}
+
+</div>
+
+
+
+
+</body>
+</html>
